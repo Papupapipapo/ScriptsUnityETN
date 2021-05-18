@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ontrig : MonoBehaviour
 {
+    //Al atacar s'activa aquest script i comprova que si el collider que té la hacha es choca amb alguna valla, si ho fa el trenca
     public float breakForce = 3f;
     private Collider ownColl;
 

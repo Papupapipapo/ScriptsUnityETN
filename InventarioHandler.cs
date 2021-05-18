@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InventarioHandler : MonoBehaviour
 {
+    //Sistema d'inventari per al jugador
     private GameObject hand;
     private Inventario inventarioPlayer = new Inventario();
 

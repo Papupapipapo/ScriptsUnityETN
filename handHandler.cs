@@ -63,7 +63,7 @@ public class handHandler : MonoBehaviour
     public void auxEnable () {
         rayCastAux.enabled = true;
     }
-    public void auxEnableKey () {
+    public void auxEnableKey () { //En cas de ser clau mirará quina es i activará quina clau portem
         rayCastAux.enabled = true;
         foreach (Transform child in hand.transform) {
             if(child.gameObject.tag.Contains("Key")){

@@ -9,7 +9,7 @@ public class FuncionFinal : MonoBehaviour
     private string record;
     private string player;
 
-    // Start is called before the first frame update
+    // Aqui s'escriurá el fitxer del jugador quina puntuació ha tret
     void Start()
     {
         player = GameManager.Instance.PlayerName;

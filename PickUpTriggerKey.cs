@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PickUpTriggerKey : MonoBehaviour
 {
+    //Un event al agafar la clau
     GameObject marcoContainer;
     GameObject marco;
     GameObject broken;

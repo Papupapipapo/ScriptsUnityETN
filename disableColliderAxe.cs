@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class disableColliderAxe : StateMachineBehaviour
 {
-   
+   //Una animació que al començar es carrega i al acabar es tanca un collider, que es la hacha
     private Collider possibleCollider;
     void Start(){
         possibleCollider =  GameObject.FindGameObjectsWithTag("Hand")[0].transform.GetChild(0).gameObject.GetComponent<Collider>();

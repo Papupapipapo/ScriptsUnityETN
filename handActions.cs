@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class handActions : MonoBehaviour
 {
+    //Les accions que pot fer la má
     private GameObject hand;
     private int childrenCountHand;
     private GameObject child;

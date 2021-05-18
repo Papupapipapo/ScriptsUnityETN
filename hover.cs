@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 
 public class hover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    
+    //Per al texte que surti groc al hover
     // Start is called before the first frame update
     public void OnPointerEnter(PointerEventData eventData) 
     {

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
+    //Un manager general de tot, es molt important i molt util per a persistencia de dades i canviar nivells.
     public GameObject [] SystemPrefabs;
 
     private string _playerName = "Dummy";

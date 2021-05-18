@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DummyCollText : MonoBehaviour
 {
+    //Un text que apareixerá si el jugador vol saltarse el nivell
     protected EditarTexto textHandler;
     float timeShown = 0;
     protected void Start(){

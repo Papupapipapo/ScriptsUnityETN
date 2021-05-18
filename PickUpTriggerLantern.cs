@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUpTriggerLantern : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Event que pasa al agfar la lanterna que apaga tot i una barrera invisble
     void Start()
     {
         foreach (GameObject light in GameObject.FindGameObjectsWithTag("Luz")){

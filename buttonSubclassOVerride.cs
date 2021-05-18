@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;// Required when using Event data.
 
 public class buttonSubclassOVerride : Button, IPointerDownHandler
 {
+    //Botó que fara que el boto es fagi pantalla sencera, carrega nivell i arregla ratoli.
     public override void OnPointerDown (UnityEngine.EventSystems.PointerEventData eventData)
     {
         Cursor.lockState = CursorLockMode.Locked;
