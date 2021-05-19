@@ -24,7 +24,7 @@ public class RayCastHandler : MonoBehaviour
     }
 
     void getObject(){ //Mir a aon esta mirant el usuari i si dona algun collider i si el collider te tag doncs pasarem al script comprovant
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit)){
              if(hit.collider != null){
